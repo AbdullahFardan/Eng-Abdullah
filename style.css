@@ -210,39 +210,53 @@ footer {
 /* تفاعلية لأجهزة iPhone */
 @media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
     header h1 {
-        font-size: 1.7em;
+        font-size: 1.4em; /* تقليل حجم العنوان */
     }
     .lang-button {
-        width: 110px;
-        padding: 8px 16px;
+        width: 90px; /* تقليل عرض الأزرار */
+        padding: 6px 12px; /* تقليل الهوامش الداخلية */
     }
     iframe {
-        height: 280px;
+        height: 250px; /* تقليل ارتفاع iframe */
     }
     .language-selection h2, .language-selection h5 {
-        font-size: 1.5em;
+        font-size: 1.4em; /* تقليل حجم الخط */
     }
     .language-selection h3, .language-selection h4 {
-        font-size: 1.1em;
+        font-size: 1em; /* تقليل حجم الخط للعناوين الصغيرة */
+    }
+    .glowing-card {
+        padding: 10px; /* تقليل التباعد الداخلي للبطاقات */
+        margin: 10px auto; /* تقليل المسافات الخارجية للبطاقات */
+    }
+    .glowing-card h2 {
+        font-size: 1.5em; /* تقليل حجم العناوين في البطاقات */
     }
 }
 
 /* تفاعلية لأجهزة Android */
 @media only screen and (max-device-width: 768px) {
     header h1 {
-        font-size: 1.8em;
+        font-size: 1.6em; /* تقليل حجم العنوان */
     }
     .lang-button {
-        width: 120px;
-        padding: 8px 16px;
+        width: 100px; /* تقليل عرض الأزرار */
+        padding: 6px 12px; /* تقليل الهوامش الداخلية */
     }
     iframe {
-        height: 300px;
+        height: 280px; /* تقليل ارتفاع iframe */
     }
     .language-selection h2, .language-selection h5 {
-        font-size: 1.6em;
+        font-size: 1.5em; /* تقليل حجم الخط */
     }
     .language-selection h3, .language-selection h4 {
-        font-size: 1.2em;
+        font-size: 1.1em; /* تقليل حجم الخط للعناوين الصغيرة */
+    }
+    .glowing-card {
+        padding: 15px; /* تقليل التباعد الداخلي للبطاقات */
+        margin: 15px auto; /* تقليل المسافات الخارجية للبطاقات */
+    }
+    .glowing-card h2 {
+        font-size: 1.6em; /* تقليل حجم العناوين في البطاقات */
     }
 }
