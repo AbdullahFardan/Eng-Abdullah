@@ -207,56 +207,42 @@ footer {
     }
 }
 
-/* تفاعلية لأجهزة iPhone */
+/* التفاعلية لأجهزة iPhone */
 @media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
     header h1 {
-        font-size: 1.4em; /* تقليل حجم العنوان */
+        font-size: 1.2em; /* تقليل حجم النص */
     }
     .lang-button {
-        width: 90px; /* تقليل عرض الأزرار */
-        padding: 6px 12px; /* تقليل الهوامش الداخلية */
+        width: 80px;
+        padding: 6px 12px; /* تعديل المسافات داخل الأزرار */
     }
     iframe {
-        height: 250px; /* تقليل ارتفاع iframe */
+        height: 200px; /* تعديل ارتفاع الإطارات */
     }
     .language-selection h2, .language-selection h5 {
-        font-size: 1.4em; /* تقليل حجم الخط */
+        font-size: 1.3em; /* تقليل حجم العناوين */
     }
     .language-selection h3, .language-selection h4 {
-        font-size: 1em; /* تقليل حجم الخط للعناوين الصغيرة */
-    }
-    .glowing-card {
-        padding: 10px; /* تقليل التباعد الداخلي للبطاقات */
-        margin: 10px auto; /* تقليل المسافات الخارجية للبطاقات */
-    }
-    .glowing-card h2 {
-        font-size: 1.5em; /* تقليل حجم العناوين في البطاقات */
+        font-size: 1em; /* تقليل حجم العناوين الفرعية */
     }
 }
 
-/* تفاعلية لأجهزة Android */
+/* التفاعلية لأجهزة Android */
 @media only screen and (max-device-width: 768px) {
     header h1 {
-        font-size: 1.6em; /* تقليل حجم العنوان */
+        font-size: 1.4em; /* تقليل حجم النص */
     }
     .lang-button {
-        width: 100px; /* تقليل عرض الأزرار */
-        padding: 6px 12px; /* تقليل الهوامش الداخلية */
+        width: 100px;
+        padding: 6px 14px;
     }
     iframe {
-        height: 280px; /* تقليل ارتفاع iframe */
+        height: 220px;
     }
     .language-selection h2, .language-selection h5 {
-        font-size: 1.5em; /* تقليل حجم الخط */
+        font-size: 1.4em; /* تحسين حجم العناوين */
     }
     .language-selection h3, .language-selection h4 {
-        font-size: 1.1em; /* تقليل حجم الخط للعناوين الصغيرة */
-    }
-    .glowing-card {
-        padding: 15px; /* تقليل التباعد الداخلي للبطاقات */
-        margin: 15px auto; /* تقليل المسافات الخارجية للبطاقات */
-    }
-    .glowing-card h2 {
-        font-size: 1.6em; /* تقليل حجم العناوين في البطاقات */
+        font-size: 1.1em;
     }
 }
